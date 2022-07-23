@@ -1,8 +1,8 @@
 import { Link as RouterLink } from "react-router-dom";
-import { Container, Background, Logo, ButtonLink } from "./styles";
+import { Container, Logo, ButtonLink } from "./styles";
 
-export default function HeaderContainer({ bg = true, children, ...restProps }) {
-  return bg ? <Background {...restProps}>{children}</Background> : children;
+export default function HeaderContainer({ children }) {
+  return children;
 }
 
 HeaderContainer.Frame = function HeaderContainerFrame({

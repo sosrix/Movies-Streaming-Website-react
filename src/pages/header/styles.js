@@ -1,17 +1,9 @@
 import styled from "styled-components";
 import { Link as RouterLink } from "react-router-dom";
 
-export const Background = styled.section`
-  display: flex;
-  flex-direction: column;
-
-  @media (max-width: 1100px) {
-  }
-`;
-
 export const Container = styled.div`
   display: flex;
-  margin: 0 56px;
+  margin: 0 200px;
   height: 64px;
   padding: 18px 0;
   justify-content: space-between;
@@ -39,7 +31,7 @@ export const Logo = styled.img`
 export const ButtonLink = styled(RouterLink)`
   display: block;
   background-color: #4e3e33;
-  width: 84px;
+  width: 100px;
   height: fit-content;
   color: white;
   border: 0;

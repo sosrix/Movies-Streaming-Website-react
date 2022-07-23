@@ -7,11 +7,11 @@ export default function Header({ children }) {
       <HeaderContainer.Frame>
         <HeaderContainer.Logo
           to={ROUTES.MAIN_PAGE}
-          src="/images/logo.png"
+          src={ROUTES.LOGO}
           alt="Stream it"
         />
         <HeaderContainer.ButtonLink to={ROUTES.ABOUT}>
-          Sign In
+          Clickable
         </HeaderContainer.ButtonLink>
       </HeaderContainer.Frame>
       {children}

@@ -1,34 +1,34 @@
 [
   {
     "id": 1,
-    "title": "Watch your favourite shows",
+    "title": "Watch your favourite MOVIES",
     "subTitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
     "image": "/images/1.jpg",
-    "alt": "Watch your favourite shows",
+    "alt": "Watch your favourite MOVIES",
     "direction": "row"
   },
   {
     "id": 2,
-    "title": "Watch your favourite shows",
+    "title": "Watch your favourite MOVIES",
     "subTitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor..",
     "image": "/images/2.jpg",
-    "alt": "Watch your favourite shows",
+    "alt": "Watch your favourite MOVIES",
     "direction": "row-reverse"
   },
   {
     "id": 3,
-    "title": "Watch your favourite shows",
+    "title": "Watch your favourite MOVIES",
     "subTitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
     "image": "/images/3.jpg",
-    "alt": "Watch your favourite shows",
+    "alt": "Watch your favourite MOVIES",
     "direction": "row"
   },
   {
     "id": 4,
-    "title": "Watch your favourite shows",
+    "title": "Watch your favourite MOVIES",
     "subTitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor..",
     "image": "/images/4.jpg",
-    "alt": "Watch your favourite shows",
+    "alt": "Watch your favourite MOVIES",
     "direction": "row-reverse"
   }
 ]
