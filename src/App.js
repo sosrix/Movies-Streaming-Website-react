@@ -1,5 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import * as ROUTES from "./pages/routes";
+import Header from "./pages/header/header";
 import Home from "./pages/home/Home";
 import Footer from "./pages/footer/Footer";
 import About from "./pages/About";
@@ -7,13 +9,10 @@ import About from "./pages/About";
 function App() {
   return (
     <BrowserRouter>
-      <div className="header">
-        <h1>Stream It! Movies & Anime platform</h1>
-      </div>
-
+      <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path={ROUTES.MAIN_PAGE} element={<Home />} />
+        <Route path={ROUTES.ABOUT} element={<About />} />
       </Routes>
       <Footer />
     </BrowserRouter>
