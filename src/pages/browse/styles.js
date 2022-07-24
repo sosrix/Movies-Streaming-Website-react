@@ -10,7 +10,8 @@ export const Segment = styled.div`
 `;
 
 export const Item = styled.div`
-  border: 8px solid #222;
+  border: 5px solid #222;
+  margin: 3px;
 
   color: white;
   overflow: hidden;
@@ -31,9 +32,13 @@ export const Container = styled.section`
 `;
 
 export const Title = styled.h1`
-  font-size: 20px;
+  font-size: 19px;
+  border: 2px solid #222;
+  background-color: #222;
+  margin: 0;
+  padding: 5px 8px;
+
   line-height: 1.1;
-  margin-bottom: 8px;
   @media (max-width: 600px) {
     font-size: 17px;
   }
