@@ -9,9 +9,8 @@ export default function Browse() {
       {dummyData.map((item) => (
         <BrowsePage key={item.id}>
           <BrowsePage.Segment>
+            <BrowsePage.Image src={item.image} alt={item.alt} />{" "}
             <BrowsePage.Title>{item.title}</BrowsePage.Title>
-
-            <BrowsePage.Image src={item.image} alt={item.alt} />
           </BrowsePage.Segment>
         </BrowsePage>
       ))}
