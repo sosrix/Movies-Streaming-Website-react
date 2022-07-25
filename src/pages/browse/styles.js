@@ -37,14 +37,12 @@ export const Title = styled.h1`
   background-color: #222;
   margin: 0;
   padding: 5px 8px;
-
+  text-align: center;
   line-height: 1.1;
   @media (max-width: 600px) {
     font-size: 17px;
   }
 `;
-
-export const SubTitle = styled.h2``;
 
 export const Image = styled.img`
   max-width: 100%;

@@ -2,8 +2,9 @@
 
 export const MAIN_PAGE = "/";
 export const HOME = "/home";
-export const WATCH = "/watch";
-export const ABOUT = "/about";
+export const BROWSE = "/browse";
+export const WATCH = "/watch/:movieID";
+export const ABOUT = "/browse";
 export const CONTACT_US = "/contact";
 export const CONTROL_PANEL = "/admin";
 
