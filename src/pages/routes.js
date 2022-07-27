@@ -10,4 +10,4 @@ export const CONTROL_PANEL = "/admin";
 
 // Elements paths
 
-export const LOGO = "/images/logo.png";
+export const WEBSITE_LOGO = "/images/logo.png";
