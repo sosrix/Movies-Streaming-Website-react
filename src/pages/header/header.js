@@ -7,7 +7,7 @@ export default function Header({ children }) {
       <HeaderContainer.Frame>
         <HeaderContainer.Logo
           to={ROUTES.MAIN_PAGE}
-          src={ROUTES.LOGO}
+          src={ROUTES.WEBSITE_LOGO}
           alt="Stream it"
         />
         <HeaderContainer.ButtonLink to={ROUTES.ABOUT}>
